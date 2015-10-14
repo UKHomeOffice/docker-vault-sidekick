@@ -10,4 +10,4 @@ build:
 	sudo docker build -t ${AUTHOR}/${NAME} .
 
 test:
-	sudo docker run -ti --rm ${AUTHOR}/${NAME} $@
+	sudo docker run -ti --rm ${AUTHOR}/${NAME} -dev
